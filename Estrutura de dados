@@ -1,0 +1,62 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMROr0nX8jj9wMZPZbYSFin",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/RodrigoLeiteGoncalves/PHP/blob/master/Estrutura%20de%20dados\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "o6dQ0GBNS1dq",
+        "outputId": "ca4e789d-a3a7-4950-8071-015d380095f2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Tamanho do texto:60\n",
+            "Existe a palavra Phyton no texto: True\n",
+            "Quantidade de y no texto: 1\n",
+            "As 5 primeiras letras do texto são:  Aprend\n"
+          ]
+        }
+      ],
+      "source": [
+        "texto = ' Aprendendo phyton na disciplina de linguagem de programação'\n",
+        "\n",
+        "print(f\"Tamanho do texto:{len(texto)}\")\n",
+        "print(f\"Existe a palavra Phyton no texto: {'phyton' in texto}\")\n",
+        "print(f\"Quantidade de y no texto: {texto.count('y')}\")\n",
+        "print(f\"As 5 primeiras letras do texto são: {texto[0:7]}\")"
+      ]
+    }
+  ]
+}
