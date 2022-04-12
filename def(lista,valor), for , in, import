@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled9.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyMB6JbgTs8yMZNPcpeXH4dL",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/RodrigoLeiteGoncalves/PHP/blob/master/def(lista%2Cvalor)%2C%20for%20%2C%20in%2C%20import\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JhbuQGT1l1Aa",
+        "outputId": "eee67f3e-13d6-4b32-9985-59330e984e0a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[4, 6, 10, 13, 14, 18, 19, 20, 27, 29, 33, 34, 38, 41, 42, 48, 49, 61, 83, 86]\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 3
+        }
+      ],
+      "source": [
+        "def executar_busca (lista,valor):\n",
+        "  for elemento in lista:\n",
+        "    if valor == elemento:\n",
+        "      return True\n",
+        "  return False\n",
+        "\n",
+        "import random\n",
+        "\n",
+        "lista = random.sample(range(100), 20)\n",
+        "print(sorted(lista))\n",
+        "executar_busca(lista, 10)"
+      ]
+    }
+  ]
+}
